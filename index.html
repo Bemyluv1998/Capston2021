@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <link>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,7 +54,7 @@
             <h1 class="home__title">Party People <br/></h1>
             <h1 class="home__title2"> 커피한잔 가격으로 ott를 자유롭게!</h1>   
             <h2 class="home__description">
-                <span style="color:red; font-weight:bold">Nexlix</span> ,
+                <span style="color:red; font-weight:bold">Netflix</span> ,
                 <span style="color:#fe918d;font-weight:bold">Whatcha</span> ,
                 <span style="color:#1a3bf1;font-weight:bold">Wavve</span> ,
                 <span style="color:#feb546;font-weight:bold">Tiving</span>
@@ -62,9 +63,11 @@
         </section>
 
         <!-- About -->
-        <section id="about">
-            <h1>what about party people??</h1>
-            <p>넷플릭스뿐만 아니라 왓챠, 유튜브 프리미엄, 디즈니 플러스, 애플tv. 
+        <section id="about"class="section">
+            <img src="imgs/about2.png" alt="about2">
+            <h1> <span style="color:#b37bbb; font-weight:bold">what about party people??</span></h1>
+            <p> 전 세계적으로 OTT의 열풍이 부는 가운데<br>
+                넷플릭스뿐만 아니라 왓챠, 유튜브 프리미엄, 디즈니 플러스, 애플tv. 
                 한국의 웨이브 , 티빙 등 많은 ott 서비스가 있습니다.<br>
                 하지만 각자의 OTT 서비스가 제공하는 컨텐츠가 다르기 때문에<br>
                 여러 가지의 컨텐츠를 즐길려면 각각의 OTT 서비스에 다 가입하게 되면 매달 나가는 돈이 많아 지게 됩니다.<br>
@@ -75,36 +78,49 @@
         </section>
         
         <!-- supoort site -->
-        <section id="sptsite"></section>
-        <div class="sptsite__majors">
-            <div class="mjor">
-                <img class="major__icon">
-                    <img class="netflix__logo" alt="netfilx" src="imgs/netfilx_logo .png"></img>
+        <section id="sptsite" class="section ">
+            <div class="section__container">
+                <h1><span style="color:#4d4d4d; font-weight: bold;">Surpoort Site!</h1> 
+                <div class="sptsite__majors">
+                    <div class="major">
+                        <div class="major__icon" >
+                        <a href="https://www.wavve.com/"> <img src="imgs/wavve_logo.png"></img></a>
+                        </div>
+                        <h2 class="major__title">Wavve</h2>
+                        <p class="major__description">
+                        월 4900원에 웨이브를 즐겨보세요!
+                        </p>
+                    </div>
+                    <div class="major">
+                        <div class="major__icon">
+                        <a href="https://www.netflix.com/"> <img src="imgs/netfilx_logo .png"></img></a>
+                        </div>
+                        <h2 class="major__title">Netflix</h2>
+                        <p class="major__description">
+                            월 4900원에 넷플릭스를 즐겨보세요!
+                        </p>
+                    </div>
+                    <div class="major">
+                        <div class="major__icon">
+                        <a href="https://watcha.com/"> <img src="imgs/watcha_logo.png"></img></a>
+                        </div>
+                        <h2 class="major__title">Whatcha</h2>
+                        <p class="major__description">
+                            월 4900원에 왓챠를 즐겨보세요!
+                        </p>
+                    </div>
+                </div>
             </div>
-                <div class="major__title">netflix 월 4900원</div>
-                <div class="major__description">파티를 구해 넷플릭스를 월4900원에 즐겨보세요</div>
             
-            <div class="mjor">
-                    <img class="major__icon">
-                        <img class="watcha__logo" alt="watcha" src="imgs/watcha_logo.png"></img>
-                </div>
-                    <div class="major__title">watcha 월 4900원</div>
-                    <div class="major__description">파티를 구해 왓챠를 월4900원에 즐겨보세요</div>
             
-            <div class="mjor">
-                    <img class="major__icon">
-                        <img class="wavve__logo" alt="wavve" src="imgs/wavve_logo.png"></img>
-                </div>
-                    <div class="major__title">wavve 월 4900원</div>
-                    <div class="major__description">파티를 구해 웨이브를 월4900원에 즐겨보세요</div> 
-        </div>
+        </section>
 
         <!-- how to use -->
-        <section id="howtouse">
-            <h1>Party peple 어떻게 이용 하나요?</h1>
+        <section id="howtouse" class="section">
+            <h1 class ="party__howtouse">Party peple 어떻게 이용 하나요?</h1>
             <p>OTT별로 파티장과 파티원 중 선택하여 이용 가능해요 계정을 공유하는 주인을 '파티장'이라고 하며  계정을 공유받는 사람을 파티원이라고 불러요 </p>
             <div class="howtouse__categories">
-                <button class="category__btn">파티장 이용</button>
+                <button class="category__btn active">파티장 이용</button>
                 <button class="category__btn">파티원 이용</button>
             </div>
             
@@ -117,7 +133,7 @@
                 <img src="imgs/projects/howtouse1.PNG" alt="파티장" class="project__img">
                 <div class="project__description">
                     <h3>파티장 이용방법!</h3>
-                    <span>클릭해보세요!</span>
+                    <span style="color: black;">클릭해보세요!</span>
                 </div>  
                 </a>
                 <a
@@ -127,15 +143,15 @@
                 >
                 <img src="imgs/projects/howtouse2.png" alt="파티원" class="project__img">
                 <div class="project__description">
-                    <h3>파티장 이용방법!</h3>
-                    <span>클릭해보세요!</span>
+                    <h3>파티원 이용방법!</h3>
+                    <span style="color: black;">클릭해보세요!</span>
                 </div>
                 </a>
             </div>
         </section>
 
         <!-- testimonials -->
-        <section id="testimonials">
+        <section id="testimonials" class="section">
             <h1>party people 후기</h1>
             <h3>party people 추천해요~!</h3>
             <div class="testimonials">
@@ -158,7 +174,7 @@
         </section>
 
         <!-- contact -->
-        <section id="contact">
+        <section id="contact" class="section">
             <h1 class="contact_title">Contact</h1>
             <h2 class="contact__email">bemyluv1998@gmail.com</h2>
             <div class="contact__links">
