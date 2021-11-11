@@ -45,6 +45,10 @@
                 <li class="navbar__menu__item active">Sing in</li>
             </ul>
         </nav>
+        <!-- Toggle button-->
+            <button class="navbar__toggle-btn">
+                <i class="fas fa-bars"></i>
+            </button>
 
         <!-- Home-->
         <section id="home">
@@ -117,7 +121,8 @@
 
         <!-- how to use -->
         <section id="howtouse" class="section">
-            <h1 class ="party__howtouse">Party peple 어떻게 이용 하나요?</h1>
+            <div class="section__container">
+                <h1 class ="party__howtouse">Party peple 어떻게 이용 하나요?</h1>
             <p>OTT별로 파티장과 파티원 중 선택하여 이용 가능해요 계정을 공유하는 주인을 '파티장'이라고 하며  계정을 공유받는 사람을 파티원이라고 불러요 </p>
             <div class="howtouse__categories">
                 <button class="category__btn active">파티장 이용</button>
@@ -148,28 +153,42 @@
                 </div>
                 </a>
             </div>
+            </div>
         </section>
 
         <!-- testimonials -->
         <section id="testimonials" class="section">
-            <h1>party people 후기</h1>
+            <div class="section__container">
+                <h1>party people 후기</h1>
             <h3>party people 추천해요~!</h3>
             <div class="testimonials">
                 <div class="testimonial">
-                    <img src="imgs/human2.png" alt="human1" class="testimonials__avatar">
+                    <img src="imgs/human2.png" 
+                    alt="human1" 
+                    class="testimonials__avatar"
+                    />
                     <div class="testimonial__speech-bubble">
-                        <p>왓챠,넷플릭스,유튜브 프리미엄등 제가 구독하는 사이트들이 많아서 다달히 들어가는 돈이 많았는데
-                        파티피플때매 돈을 많이 아낀거같아요~
+                        <p>왓챠,넷플릭스,유튜브 프리미엄등 <br>제가 구독하는 사이트들이 많아서 다달히 들어가는 돈이 많았는데
+                            <br>그러다가 파티피플을 알게되었고 서비스를 이용해보니 돈을 많이 아낄수 있더라고요<br>
+                            파티피플때매 돈을 많이 아낀거같아요~ <br>
+                            강추합니다!
                         </p>
+                    <a class="name"<a href="">박지성 /대학생 21</a>                        
                     </div>
                 </div>
                 
                 <div class="testimonial">
                     <img src="imgs/human.png" alt="human1" class="testimonials__avatar">
                     <div class="testimonial__speech-bubble">
-                        <p>정말 좋아요! 우리가족들도 다 가입할려구요~!</p>
+                        <p> 친구들이랑 넷플릭스 아이디를 같이 쓰고있다가 <br>
+                            공유를 더이상 못하게 되었는데 파티피플을 알게되었고 서비스를 이용해보았어요! <br>클릭한번에 공유아이디가 나와서 정말 편리했고
+                            <br>모르는 사람들이랑도 아이디를 공유하여 OTT를 싸게 이용해서 다행인거같아요!<br>
+                            정말 추천해요!
+                        </p>
+                        <a class="name"<a href="">이은진 /대학생 25</a>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -181,11 +200,12 @@
                 <a href="https://github.com/Bemyluv1998/Capston2021" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/onmyway2222/" target="_blank">
                     <i class="fa fa-linkedin-square"></i>
                 </a>
             </div>
             <p class="contact__rights">2021 capston Party people-ALL rights reserved
+                                    <br>kit capston project 박지성,김준영,이성경,이은진,방수진
             </p>
         </section>
     </body>
