@@ -105,14 +105,23 @@
 
 /* Navbar */
 #navbar{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between ;
-    background-color: var(--color-puple) ;
+    background-color: transparent ;
     align-items: center;
     color: var(--color-white);
     padding: 16px;
+    transition: all var(--animation-duration) ease-in-out;
 
 }
+
+#navbar.navbar--dark {
+    background-color: var(--color-puple);
+    padding: 8px;
+}
+
 .navbar__menu{
     display: flex;
 
