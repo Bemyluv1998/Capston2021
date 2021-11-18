@@ -34,6 +34,7 @@ document.addEventListener('scroll',()=>{
     home.style.opacity = 1 - window.scrollY /homeHeight;
 });
 
+
 //party use 
 const workBtnContainer = document.querySelector('.howtouse__categories');
 const projectContainer = document.querySelector('.work__projects');
@@ -43,16 +44,19 @@ workBtnContainer.addEventListener('click',(e)=>{
     if(filter == null){
         return;
     }
-    console.log(filter);
-    projects.forEach((project) => {
-        console.log(project.dataset.type);
-        if(filter ==='*' || filter === project.dataset.type){
-            project.classList.remove('invisible');
-        } else{
-            project.classList.add('invisible');
-        }
-        
-    });
+    projectContainer.classList.add('anim-out');
+    setTimeout(() => {
+        projects.forEach((project) => {
+            console.log(project.dataset.type);
+            if(filter ==='*' || filter === project.dataset.type){
+                project.classList.remove('invisible');
+            } else{
+                project.classList.add('invisible');
+            }
+            
+        });
+        projectContainer.classList.remove('anim-out');
+    }, 250);
 
 });
 
