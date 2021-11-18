@@ -41,7 +41,7 @@
                 <li class="navbar__menu__item"data-link="#about">About</li>
                 <li class="navbar__menu__item"data-link="#sptsite">Spt site</li>
                 <li class="navbar__menu__item"data-link="#howtouse">How to use</li>
-                <li class="navbar__menu__item active">GO use!</li>
+                <li class="navbar__menu__item active">my party</li>
                 <li class="navbar__menu__item active">sign up</li>
                 <li class="navbar__menu__item active">log in</li>
                 <li class="navbar__menu__item active">log out</li>
@@ -54,9 +54,10 @@
 
         <!-- Home-->
         <section id="home">
-            <img src="imgs/partypuple.png" alt="profile photo" 
-            class="home__avatar" 
-            />
+            <div class="home__container">
+                <img src="imgs/partypuple.png" alt="profile photo" 
+                class="home__avatar" 
+                />
             <h1 class="home__title">Party People <br/></h1>
             <h1 class="home__title2"> 커피한잔 가격으로 ott를 자유롭게!</h1>   
             <h2 class="home__description">
@@ -66,6 +67,7 @@
                 <span style="color:#feb546;font-weight:bold">Tiving</span>
                 <br/> 매달 나가는 구독료 부담스럽다면?</span> </h2>
             <button class="home__contact">사용하기</button>
+            </div>
         </section>
 
         <!-- About -->
@@ -127,8 +129,9 @@
                 <h1 class ="party__howtouse">Party peple 어떻게 이용 하나요?</h1>
             <p>OTT별로 파티장과 파티원 중 선택하여 이용 가능해요 계정을 공유하는 주인을 '파티장'이라고 하며  계정을 공유받는 사람을 파티원이라고 불러요 </p>
             <div class="howtouse__categories">
-                <button class="category__btn active">파티장 이용</button>
-                <button class="category__btn">파티원 이용</button>
+                <button class="category__btn active" data-filter="*">전체보기</button>
+                <button class="category__btn"data-filter="partyhall">파티장 이용</button>
+                <button class="category__btn"data-filter="partyuser">파티원 이용</button>
             </div>
             
             <div class="work__projects">
@@ -136,6 +139,7 @@
                     href="https://trello.com/b/vnYQMl7M/tutorial"
                     class="project"
                     target="blank"
+                    data-type="partyhall"
                 >
                 <img src="imgs/projects/howtouse1.PNG" alt="파티장" class="project__img">
                 <div class="project__description">
@@ -147,6 +151,7 @@
                     href="https://trello.com/b/vnYQMl7M/tutorial"
                     class="project"
                     target="blank"
+                    data-type="partyuser"
                 >
                 <img src="imgs/projects/howtouse2.png" alt="파티원" class="project__img">
                 <div class="project__description">
