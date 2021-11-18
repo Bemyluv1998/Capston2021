@@ -11,6 +11,19 @@ document.addEventListener('scroll',() =>{
     }
 });
 
+
+
+
+
+// Navbar toggle button for small screen
+const navbarToggleBtn = document.querySelector('.navbar__toggle-btn');
+navbarToggleBtn.addEventListener('click', () => {
+    navbarMenu.classList.toggle('open');
+});
+
+
+
+
 // handle scrolling when tapping on the navbar menu
 
 const navbarMenu= document.querySelector('.navbar__menu');
@@ -44,6 +57,11 @@ workBtnContainer.addEventListener('click',(e)=>{
     if(filter == null){
         return;
     }
+    // remove selection
+    const active =document.querySelector('.category__btn.selected');
+    active.classList.remove('selected');
+    e.target.classList.add('selected');
+
     projectContainer.classList.add('anim-out');
     setTimeout(() => {
         projects.forEach((project) => {
@@ -53,7 +71,6 @@ workBtnContainer.addEventListener('click',(e)=>{
             } else{
                 project.classList.add('invisible');
             }
-            
         });
         projectContainer.classList.remove('anim-out');
     }, 250);
